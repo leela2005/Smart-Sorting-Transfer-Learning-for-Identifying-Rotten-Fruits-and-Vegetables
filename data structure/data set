@@ -1,0 +1,16 @@
+SmartSortingApp/
+├── dataset/
+│   ├── train/
+│   │   ├── freshapples/
+│   │   ├── freshbanana/
+│   │   ├── freshoranges/
+│   │   ├── rottenapples/
+│   │   ├── rottenbanana/
+│   │   └── rottenoranges/
+│   └── test/
+│       ├── freshapples/
+│       ├── freshbanana/
+│       ├── freshoranges/
+│       ├── rottenapples/
+│       ├── rottenbanana/
+│       └── rottenoranges/
