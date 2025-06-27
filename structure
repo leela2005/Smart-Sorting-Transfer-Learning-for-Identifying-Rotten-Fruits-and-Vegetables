@@ -1,0 +1,15 @@
+SmartSortingWebApp/
+├── static/
+│   └── uploads/               
+├── templates/
+│   ├── index.html             
+│   ├── predict.html           
+│   ├── tips.html              
+│   ├── aboutus.html           
+│   ├── signin.html            
+│   └── result.html            
+├── model/
+│   ├── train_model.py        
+├── app.py                      
+├── requirements.txt           
+├── README.md                  
