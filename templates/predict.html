@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="predict-card">
+  <h2>Upload an image to predict:</h2>
+  <form method="POST" enctype="multipart/form-data">
+    <input type="file" name="file" required>
+    <button type="submit">Predict</button>
+  </form>
+  {% if result %}
+  <div class="prediction">
+    <h3>{{ result.label }} ({{result.confidence}}%)</h3>
+    <img src="{{ url_for('static',filename=result.image.split('static/')[-1]) }}">
+  </div>
+  {% endif %}
+</div>
+{% endblock %}
